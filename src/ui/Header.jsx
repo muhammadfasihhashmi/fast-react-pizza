@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 import SearchOrder from "../features/Order/SearchOrder";
-import UserName from "../features/User/userName";
+import UserName from "../features/User/UserName";
 
 function Header() {
   const userName = useSelector((store) => store.user.userName);
